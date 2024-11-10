@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+env.bak/
+
+# Environment variables file
+.env
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+*.manifest
+
+# Python package files
+*.pyc
+*.pyo
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# mypy type-checking cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type-checking cache
+.pyre/
+
+# C extensions
+*.so
+
+# Temporary files and backup files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# IDE configuration files (common for multiple IDEs)
+.idea/            # PyCharm
+.vscode/          # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker files
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Editor backups and swap files
+*~
+*.swp
+*.swo
+*.bak
+
+# Jupyter Notebook output
+**/output/

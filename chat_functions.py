@@ -19,7 +19,9 @@ def query_chatgpt(prompt):
 def analyze_file_content(content, analysis_type="summary"):
     """Analyze the content based on the specified analysis type."""
     if analysis_type == "summary":
-        prompt = f"Please summarize the following content:\n\n{content}"
+        # prompt = f"Please summarize the following content:\n\n{content}"
+        prompt = f"Please summarize the following content: hello"
+
     elif analysis_type == "keywords":
         prompt = (
             f"Extract key topics or keywords from the following content:\n\n{content}"
